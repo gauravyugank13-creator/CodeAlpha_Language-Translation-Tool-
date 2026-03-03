@@ -1,0 +1,6 @@
+streamlit==1.28.1
+googletrans==4.0.0rc1
+gTTS==2.3.2
+nltk==3.8.1
+scikit-learn==1.3.2
+requests==2.31.0

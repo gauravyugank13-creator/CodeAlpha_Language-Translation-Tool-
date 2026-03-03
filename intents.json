@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "what's up", "greetings"],
+      "responses": ["Hello! How can I help you?", "Hi there! What can I do for you?", "Hey! What do you need?"]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["what are your hours", "when are you open", "what time do you close", "operating hours", "business hours", "when do you open"],
+      "responses": ["We're open Monday to Friday, 9 AM to 6 PM. Saturday 10 AM to 4 PM.", "Our hours are 9-6 on weekdays and 10-4 on Saturday.", "We operate 9 AM - 6 PM weekdays, 10 AM - 4 PM Saturday."]
+    },
+    {
+      "tag": "location",
+      "patterns": ["where are you located", "what's your address", "where do you work", "location", "address", "office location"],
+      "responses": ["We're located at 123 Main Street, Downtown.", "You can find us at 123 Main Street.", "Our office is at 123 Main Street, Suite 200."]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["how can i contact you", "what's your phone number", "email address", "how do i reach you", "contact info", "phone number"],
+      "responses": ["You can reach us at (555) 123-4567 or email info@company.com", "Call us at (555) 123-4567 during business hours.", "Email us at info@company.com or call (555) 123-4567."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "take care", "have a nice day", "farewell"],
+      "responses": ["Goodbye! Thanks for stopping by.", "See you later!", "Bye! Have a great day."]
+    }
+  ]
+}
